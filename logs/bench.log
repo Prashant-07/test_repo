@@ -1,0 +1,166 @@
+2022-03-22 14:01:42,725 DEBUG cd /Users/user/Library_management_project/frappe-bench && /Users/user/Library_management_project/env/bin/virtualenv --quiet env -p python3
+2022-03-22 14:01:43,172 DEBUG cd /Users/user/Library_management_project/frappe-bench && /Users/user/Library_management_project/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-03-22 14:01:43,868 LOG Getting frappe
+2022-03-22 14:01:43,869 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2022-03-22 14:01:54,558 LOG Installing frappe
+2022-03-22 14:01:54,558 DEBUG cd /Users/user/Library_management_project/frappe-bench && /Users/user/Library_management_project/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/user/Library_management_project/frappe-bench/apps/frappe 
+2022-03-22 14:03:29,068 DEBUG cd /Users/user/Library_management_project/frappe-bench/apps/frappe && yarn install
+2022-03-22 14:04:22,485 DEBUG cd frappe-bench && bench build
+2022-03-22 14:04:22,574 INFO /Users/user/Library_management_project/env/bin/bench build
+2022-03-22 14:05:19,200 LOG setting up backups
+2022-03-22 14:05:23,365 LOG backups were set up
+2022-03-22 14:05:23,366 INFO Bench frappe-bench initialized
+2022-03-22 14:05:48,214 INFO /opt/homebrew/bin//bench start
+2022-03-22 14:05:48,214 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-22 14:05:48,957 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-22 14:05:48,976 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-22 14:05:48,985 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-22 14:05:48,985 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-22 14:05:48,996 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-22 14:05:49,006 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-22 14:06:55,356 INFO ../env/bin/bench start
+2022-03-22 14:06:56,236 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-22 14:06:56,237 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-22 14:06:56,244 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-22 14:06:56,270 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-22 14:06:56,276 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-22 14:06:56,286 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-22 15:22:59,198 INFO ../env/bin/bench --version
+2022-03-22 15:23:03,017 INFO A newer version of bench is available: 5.8.0 → 5.8.1
+2022-03-22 15:31:04,129 INFO ../env/bin/bench new-app library_management
+2022-03-22 15:31:04,607 LOG creating new app library_management
+2022-03-22 15:31:32,711 LOG Installing library_management
+2022-03-22 15:31:32,711 DEBUG cd /Users/user/Library_management_project/frappe-bench && /Users/user/Library_management_project/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/user/Library_management_project/frappe-bench/apps/library_management 
+2022-03-22 15:31:34,733 DEBUG bench build --app library_management
+2022-03-22 15:31:34,816 INFO /Users/user/Library_management_project/env/bin/bench build --app library_management
+2022-03-22 15:40:07,635 INFO ../env/bin/bench new-site library.test
+2022-03-22 15:40:36,506 INFO ../env/bin/bench new-site library.test
+2022-03-22 15:41:44,846 INFO ../env/bin/bench drop-site library.test
+2022-03-22 15:42:03,794 INFO ../env/bin/bench drop-site library.test --force
+2022-03-22 15:49:17,348 INFO ../env/bin/bench drop-site library.test --force
+2022-03-22 15:49:58,560 INFO ../env/bin/bench new-site library.test
+2022-03-22 15:53:04,767 INFO ../env/bin/bench start
+2022-03-22 15:53:05,590 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-22 15:53:05,620 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-22 15:53:05,631 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-22 15:53:05,638 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-22 15:53:05,639 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-22 15:53:05,644 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-22 16:03:25,833 INFO /opt/homebrew/bin//bench start
+2022-03-22 16:03:25,833 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-22 16:03:26,203 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-22 16:03:26,211 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-22 16:03:26,217 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-22 16:03:26,223 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-22 16:03:26,243 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-22 16:03:26,266 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-22 16:30:47,396 INFO /opt/homebrew/bin//bench start
+2022-03-22 16:30:47,396 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-22 16:30:47,750 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-22 16:30:47,755 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-22 16:30:47,773 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-22 16:30:47,782 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-22 16:30:47,787 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-22 16:30:47,799 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-23 00:00:01,056 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-23 00:00:01,057 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:19:32,861 INFO /opt/homebrew/bin//bench start
+2022-03-23 11:19:32,862 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:19:33,233 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-23 11:19:33,236 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-23 11:19:33,242 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-23 11:19:33,242 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-23 11:19:33,253 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-23 11:19:33,280 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-23 11:22:36,774 INFO /opt/homebrew/bin//bench --site library.test list-apps
+2022-03-23 11:22:36,775 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:23:07,302 INFO /opt/homebrew/bin//bench --site library.test install-app library_management
+2022-03-23 11:23:07,302 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:23:10,954 INFO /opt/homebrew/bin//bench --site library.test list-apps
+2022-03-23 11:23:10,954 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:26:08,080 INFO /opt/homebrew/bin//bench --site library.test -help
+2022-03-23 11:26:08,080 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:26:12,617 INFO /opt/homebrew/bin//bench --site library.test --help
+2022-03-23 11:26:12,617 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:39:20,550 INFO /opt/homebrew/bin//bench --site library.test set-config --global developer_mode 1
+2022-03-23 11:39:20,550 WARNING bench is installed in editable mode!
+
+This is not the recommended mode of installation for production. Instead, install the package from PyPI with: `pip install frappe-bench`
+
+2022-03-23 11:40:49,291 INFO /opt/homebrew/bin//bench start
+2022-03-23 11:40:49,630 INFO /Users/user/Library_management_project/env/bin/bench worker --queue short
+2022-03-23 11:40:49,638 INFO /Users/user/Library_management_project/env/bin/bench schedule
+2022-03-23 11:40:49,639 INFO /Users/user/Library_management_project/env/bin/bench watch
+2022-03-23 11:40:49,648 INFO /Users/user/Library_management_project/env/bin/bench serve --port 8000
+2022-03-23 11:40:49,665 INFO /Users/user/Library_management_project/env/bin/bench worker --queue long
+2022-03-23 11:40:49,723 INFO /Users/user/Library_management_project/env/bin/bench worker --queue default
+2022-03-23 12:00:01,221 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-23 12:00:21,511 INFO /Users/user/Library_management_project/env/bin/bench --site library.test mariadb
+2022-03-24 18:01:50,071 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-25 12:00:00,758 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-25 18:00:01,075 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-27 00:00:01,171 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-27 18:00:01,249 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-28 00:00:01,739 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-28 18:00:01,198 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-29 00:00:01,505 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-29 12:00:01,735 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-29 18:00:01,073 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-30 00:00:01,669 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-30 12:06:32,267 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-31 12:00:01,493 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-03-31 18:00:01,819 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-04 00:01:14,546 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-04 18:00:01,167 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-05 00:02:40,235 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-06 00:00:01,222 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-06 12:00:01,520 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-07 12:00:01,619 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-07 18:00:01,596 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-08 18:00:01,794 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-11 00:00:01,502 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-12 00:00:01,402 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-13 12:00:01,162 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-13 18:00:01,588 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-14 00:00:02,045 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-14 18:00:01,490 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-15 00:00:01,428 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-16 00:00:01,215 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-16 18:00:01,776 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-17 00:00:01,208 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-19 12:00:01,682 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-21 12:00:01,182 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-22 18:00:01,899 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-23 00:00:01,205 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-23 18:00:01,765 INFO /opt/homebrew/bin//bench --verbose --site all backup
+2022-04-25 12:00:01,333 INFO /opt/homebrew/bin//bench --verbose --site all backup

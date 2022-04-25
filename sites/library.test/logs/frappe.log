@@ -1,0 +1,3 @@
+2022-03-23 12:32:22,958 ERROR frappe New Exception collected with id: 2022-03-23 12:32:22.916038-127.0.0.1-f11
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Member","name":"new-library-member-1","__islocal":1,"__unsaved":1,"owner":"Administrator","first_name":"Prashant","last_name":"Tomar","email":"prashant.tomar@elastic.run","phone":"8266961869"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
